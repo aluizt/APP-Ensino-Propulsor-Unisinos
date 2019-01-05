@@ -1,0 +1,52 @@
+<ion-header>
+
+  <ion-navbar class="menu_superior"> 
+    <ion-title>Cálculo de Várias Variáveis</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div class="pagina">
+        <div class = "imagem">
+              <img src="../../assets/imgs/matematicaMonitoria.png">
+              <p>Bem-vindo(a) ao espaço do Cálculo de Várias Variáveis</p>
+                            
+              <p class="titulos">Monitoria</p>
+              
+              <ul>
+                <li >
+                 {{monitoriaSaoleo}}<br/><br/>
+                </li>
+              </ul>
+                             
+             <button ion-button block (click)="goToCalculoVariasVariaveis()">Horários das Monitorias</button>
+                
+              
+              <p class="titulos">Calendario de eventos</p>
+             <ul>
+                <li *ngFor="let nome of eventos">
+                  <table>
+                    <tr>
+                      <td>
+                        <time  class="icon">
+                          <em>{{formatarDataDia(nome.data)}}</em>
+                          <strong>{{formatarDataMes(nome.data)}}</strong>
+                          <span>{{nome.data | date:'dd'}}</span>
+                        </time>
+                      </td>
+                      <td>
+                        <p class="textoEvento">{{nome.descricao}}</p>                        
+                      </td>
+                    </tr>
+                  </table>
+                  <br/>
+                </li>
+             </ul>
+        </div>
+    </div>
+</ion-content>
+
+
+

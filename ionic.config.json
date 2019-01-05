@@ -1,0 +1,7 @@
+{
+  "name": "AppEnsinoPropulsor",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

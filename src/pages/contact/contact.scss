@@ -1,0 +1,50 @@
+page-contact {
+
+    
+    .menu_superior *{
+        color:#FFF;
+        background-color:darkblue; 
+    }
+
+    form{
+       
+        background: #CCC;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 10px 10px 10px;
+        
+    }
+    .titulo{
+        color:blue
+    }
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+    }
+    .enviar input {
+        background-color: #069;
+        height: 40px;
+        width: 150px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+        color: #FFF;
+        cursor: pointer;
+    }
+    .enviar input:hover{
+        background: #078;
+    }
+    input{
+        border-radius: 10px;
+    }
+    textarea {
+        width: 100%;
+        height: 120px;
+        line-height: 20px;
+        border-radius: 10px;
+    }
+
+    
+}

@@ -1,0 +1,282 @@
+<ion-header>
+  <ion-navbar class="menu_superior">
+    <ion-title>
+      Monitorias
+    </ion-title>
+  </ion-navbar>
+
+  <ion-toolbar >
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="Manha">
+        Manha
+      </ion-segment-button>
+      <ion-segment-button value="Tarde">
+        Tarde
+      </ion-segment-button>
+      <ion-segment-button value="Vespertino">
+        Vespertino
+      </ion-segment-button>
+      <ion-segment-button value="Noite">
+        Noite
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="centro">
+  <div [ngSwitch]="pet" class="conteudo">
+    <ion-list *ngSwitchCase="'Manha'">
+      <ion-item class="item">
+        <ion-thumbnail item-start>
+           <time  class="icon">
+           <em></em>
+           <strong></strong>
+           <span>SEG</span>
+           </time>
+        </ion-thumbnail>
+        <h2>{{segunda1}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+           <time  class="icon">
+            <em></em>
+            <strong></strong>
+            <span>TER</span>
+           </time>
+        </ion-thumbnail>
+        <h2>{{terca1}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+           <time  class="icon">
+            <em></em>
+            <strong></strong>
+            <span>QUA</span>
+           </time>
+        </ion-thumbnail>
+        <h2>{{quarta1}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+           <time  class="icon">
+            <em></em>
+            <strong></strong>
+            <span>QUI</span>
+           </time>
+        </ion-thumbnail>
+        <h2>{{quinta1}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+           <time  class="icon">
+            <em></em>
+            <strong></strong>
+            <span>SEX</span>
+            </time>
+        </ion-thumbnail>
+        <h2>{{sexta1}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                     <time  class="icon">
+                     <em></em>
+                     <strong></strong>
+                     <span>SAB</span>
+                     </time>
+        </ion-thumbnail>
+        <h2>{{sabado1}}</h2>
+      </ion-item>
+      
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'Tarde'">
+      <ion-item>
+        <ion-thumbnail item-start>
+           <time  class="icon">
+              <em></em>
+              <strong></strong>
+              <span>SEG</span>
+           </time>
+        </ion-thumbnail>
+        <h2>{{segunda2}}</h2>
+      </ion-item>
+      <ion-item>
+            <ion-thumbnail item-start>
+                <time  class="icon">
+               <em></em>
+                <strong></strong>
+                <span>TER</span>
+                </time>
+            </ion-thumbnail>
+            <h2>{{terca2}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                <time  class="icon">
+                <em></em>
+                <strong></strong>
+                <span>QUA</span>
+                </time>
+        </ion-thumbnail>
+        <h2>{{quarta2}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                  <time  class="icon">
+                  <em></em>
+                  <strong></strong>
+                  <span>QUI</span>
+                  </time>
+        </ion-thumbnail>
+        <h2>{{quinta2}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                    <time  class="icon">
+                    <em></em>
+                    <strong></strong>
+                    <span>SEX</span>
+                    </time>
+        </ion-thumbnail>
+        <h2>{{sexta2}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                      <time  class="icon">
+                      <em></em>
+                      <strong></strong>
+                      <span>SAB</span>
+                      </time>
+        </ion-thumbnail>
+        <h2>{{sabado2}}</h2>
+      </ion-item>        
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'Vespertino'">
+      <ion-item>
+        <ion-thumbnail item-start>
+               <time  class="icon">
+               <em></em>
+               <strong></strong>
+               <span>SEG</span>
+               </time>
+        </ion-thumbnail>
+        <h2>{{segunda3}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                 <time  class="icon">
+                 <em></em>
+                 <strong></strong>
+                 <span>TER</span>
+                 </time>
+        </ion-thumbnail>
+        <h2>{{terca3}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                   <time  class="icon">
+                   <em></em>
+                   <strong></strong>
+                   <span>QUA</span>
+                   </time>
+        </ion-thumbnail>
+        <h2>{{quarta3}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                  <time  class="icon">
+                     <em></em>
+                     <strong></strong>
+                     <span>QUI</span>
+                     </time>
+        </ion-thumbnail>
+        <h2>{{quinta3}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                       <time  class="icon">
+                       <em></em>
+                       <strong></strong>
+                       <span>SEX</span>
+            </time>
+        </ion-thumbnail>
+        <h2>{{sexta3}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                         <time  class="icon">
+                         <em></em>
+                         <strong></strong>
+                         <span>SAB</span>
+          </time>
+        </ion-thumbnail>
+        <h2>{{sabado3}}</h2>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'Noite'">
+      <ion-item>
+        <ion-thumbnail item-start>
+               <time  class="icon">
+               <em></em>
+               <strong></strong>
+               <span>SEG</span>
+               </time>
+        </ion-thumbnail>
+        <h2>{{segunda4}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                 <time  class="icon">
+                 <em></em>
+                 <strong></strong>
+                 <span>TER</span>
+                 </time>
+        </ion-thumbnail>
+        <h2>{{terca4}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                   <time  class="icon">
+                   <em></em>
+                   <strong></strong>
+                   <span>QUA</span>
+                   </time>
+        </ion-thumbnail>
+        <h2>{{quarta4}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+              <time  class="icon">
+                     <em></em>
+                     <strong></strong>
+                     <span>QUI</span>
+                     </time>
+                  </ion-thumbnail>
+                  <h2>{{quinta4}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                       <time  class="icon">
+                       <em></em>
+                       <strong></strong>
+                       <span>SEX</span>
+                       </time>
+        </ion-thumbnail>
+        <h2>{{sexta4}}</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+                         <time  class="icon">
+                         <em></em>
+                         <strong></strong>
+                         <span>SAB</span>
+                         </time>
+        </ion-thumbnail>
+        <h2>{{sabado4}}</h2>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
+
+

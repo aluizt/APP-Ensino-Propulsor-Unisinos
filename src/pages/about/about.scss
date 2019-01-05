@@ -1,0 +1,26 @@
+page-about {
+    .menu_superior * {
+        padding: 0;
+        color:#FFF;
+        background-color:darkblue;            
+   }
+
+   .centro {
+    background-color:aliceblue;
+    background-image: url('../../assets/imgs/fundo.png');
+    display: -webkit-flex;
+    height: 100%;
+    text-align: justify;
+   }
+
+   .conteudo{
+       padding: 1%;
+       padding-left: 3%;
+       padding-right: 3%;
+       background-color: white;
+   }
+
+   ion-title{
+       margin-left: 5%;
+   }
+}

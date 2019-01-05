@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar class="menu_superior">
+    <ion-title><img src="../../assets/imgs/unisinos5.png"></ion-title>    
+  </ion-navbar>
+</ion-header>
+
+<ion-content  >
+
+  <div class="centro">
+
+    <div class = "row">
+      <div class = "fisica">
+          <img src="assets/imgs/fisica.jpg">
+        
+      </div>
+
+      <div class = "portugues">
+          <img src="assets/imgs/port.jpg">
+        
+      </div>
+    </div>
+    <div class="row">
+        <button ion-button block class="fi" (click)="goToFisica()">Física</button>
+        <button ion-button block class="po" (click)="goToPortugues()">Português</button>
+    </div>
+
+    <div class = "row">
+      <div class = "quimica">
+          <img src="assets/imgs/quimica.jpg">
+      </div>
+      <div class = "informatica">
+          <img src="assets/imgs/informatica.jpg">
+      </div>
+    </div>
+    <div class="row">
+        <button ion-button block class="qu" (click)="goToQuimica()">Química</button>
+        <button ion-button block class="in">Informática</button>
+    </div>
+    <div class = "row">
+        <div class = "matematica">
+            <img src="assets/imgs/matematica.jpg">
+        </div>
+        <div class = "estatistica">
+            <img src="assets/imgs/estatistica.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <button ion-button block class="ma" (click)="goToMatematica()">Matemática</button>
+        <button ion-button block class="es"(click)="goToEstatistica()">Estatística</button>
+    </div>
+  </div>
+</ion-content>
+
+
+

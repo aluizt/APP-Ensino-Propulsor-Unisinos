@@ -1,0 +1,32 @@
+
+<ion-header>
+
+  <ion-navbar class="menu_superior">
+    <ion-title>Notícias</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let filme of lista_filmes"> <!--Loop para cada item do array-->
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src={{filme.imagem}}>
+      </ion-avatar>
+      <!--<h2 class="feed_titulo">{{ob_feed.titulo}}</h2>-->
+      <h2 class="feed_titulo">{{filme.titulo}}</h2>
+      <p class="feed_date">{{filme.data}}</p>
+      
+    </ion-item>
+    <ion-card-content>
+          <p calss="feed_descricao">{{filme.descricao}}</p>
+    </ion-card-content>
+    <!--<img src='https://image.tmdb.org/t/p/w500{{filme.backdrop_path}}'> -->
+    <!--<img [src]="'https://image.tmdb.org/t/p/w500' + filme.backdrop_path">-->
+    
+      
+  
+  </ion-card>
+</ion-content>

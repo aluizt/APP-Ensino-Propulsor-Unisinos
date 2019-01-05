@@ -1,0 +1,147 @@
+page-home {
+
+
+
+   .menu_superior * {
+        padding: 0;
+        color:#FFF;
+        background-color:darkblue;
+       /* background:url('../../assets/imgs/unisinos2.png'); */
+        
+   }
+   .centro {
+    background-color:aliceblue;
+    background-image: url('../../assets/imgs/fundo.png');
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+   }
+   .centro > .row {
+        
+   }
+
+   .header {   
+     background-color: #1abc9c;
+    }
+
+    .icon-row {
+        -webkit-align-items: center;
+    }
+
+    .fisica {
+        padding-top: 9%;
+        padding-left: 19%;
+        padding-bottom: 3%;
+    }
+    .fisica img {
+        border-radius: 50%;
+        width: 80px;
+        height: 79px;
+        background-position: center;
+        background-color: darkblue;
+    }
+
+    .fi {
+        margin-left: 12%;
+        width: 120px;
+        height: 30px;        
+        background-position: center;
+        background-color:darkblue;
+    }
+    .portugues {
+        padding: 9%;
+        padding-left: 18%;
+        padding-bottom: 3%;
+    }
+    .portugues img {        
+        border-radius: 50%;
+        width: 80px;
+        height: 79px;
+        background-position: center;
+        background-color: darkblue;
+    }
+    .po {
+        margin-left: 9%;
+        width: 120px;
+        height: 30px;        
+        background-position: center;
+        background-color:darkblue;
+    }
+
+    .quimica {        
+        padding: 5%;
+        padding-left: 19%;
+        padding-bottom: 3%;
+    }
+    .quimica img {
+        border-radius: 50%;
+        width: 80px;
+        height: 79px;
+        background-position: center;
+        background-color: deepskyblue;
+    }
+    .qu {
+        margin-left: 12%;
+        width: 120px;
+        height: 30px;        
+        background-position: center;
+        background-color: darkblue;
+    }
+    .informatica {
+        padding: 5%;
+        padding-left: 15%;
+        padding-bottom: 3%;
+    }
+    .informatica img {
+        border-radius: 50%;
+        width: 80px;
+        height: 79px;
+        background-position: center;
+        background-color: deepskyblue;
+    }
+    .in {
+        margin-left: 9%;
+        width: 120px;
+        height: 30px;        
+        background-position: center;
+        background-color: darkblue;
+    }
+    .matematica {
+        padding: 5%;
+        padding-left: 19%;
+        padding-bottom: 3%;
+    }
+    .matematica img {
+        border-radius: 50%;
+        width: 80px;
+        height: 79px;
+        background-position: center;
+        background-color:deepskyblue;
+    }
+    .ma {
+        margin-left: 12%;
+        width: 120px;
+        height: 30px;        
+        background-position: center;
+        background-color: darkblue;
+    }
+    .estatistica {
+        padding: 5%;
+        padding-left: 15%;
+        padding-bottom: 3%;
+    }
+    .estatistica img {
+        border-radius: 50%;
+        width: 80px;
+        height: 79px;
+        background-position: center;
+        background-color: deepskyblue;
+    }
+    .es {
+        margin-left: 9%;
+        width: 120px;
+        height: 30px;        
+        background-position: center;
+        background-color:darkblue;
+    }
+}

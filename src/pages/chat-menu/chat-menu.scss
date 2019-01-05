@@ -1,0 +1,25 @@
+page-chat-menu {
+
+    .menu_superior * {
+        padding: 0;
+        color:#FFF;
+        background-color:darkblue;            
+   }
+
+   .centro  {
+        background-color:aliceblue;
+        background-image: url('../../assets/imgs/fundo.png');
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        height: 100%;
+
+        button{ 
+             background-color:darkblue;
+        }
+   }
+
+   .titulo1{
+       color:darkblue;
+   }
+
+}

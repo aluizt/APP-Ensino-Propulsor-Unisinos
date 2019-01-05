@@ -1,0 +1,43 @@
+<ion-header class="header">
+  <ion-navbar class="menu_superior">
+    <ion-title>Contato</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-icon name="ionic" item-start></ion-icon>
+      <p class="titulo">Unisinos</p>   
+      <p>Campus São Leopoldo – Sala: B15 101</p>
+      <p>Email: propulsor@unisinos.br</p>
+      <p>Fone: (51) 35908394 (direto) ou</p>
+      <p>(51) 35911122 – Ramal 1624</p>
+    </ion-item>    
+  </ion-list>
+
+  <form name="formulario" class="form-email"  novalidate >
+    <p class="titulo" >Contato.</p>
+    
+    <p class="nome">
+     <input type="text" name="nome" placeholder="informe seu nome" required="required" required>
+     </p>
+    
+    <p class="email">
+     <input type="email" name="email" placeholder="informe seu email" required="required">
+     </p>
+    
+    <p class="assunto">
+     <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+     </p>
+    
+    <p class="mensagem">
+     <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+     </p>
+    
+    <p class="enviar">
+     <input type="submit" name="enviar" value="Enviar" >
+    </p>
+    
+    </form>
+</ion-content>

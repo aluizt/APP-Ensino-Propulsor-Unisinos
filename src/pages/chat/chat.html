@@ -1,0 +1,43 @@
+<ion-header>
+      <ion-navbar class="menu_superior">
+        <ion-grid>
+            <ion-row>
+              <ion-col col-10 id="coluna1">
+                Sala de {{salaNome}}
+              </ion-col>
+
+            </ion-row>
+        </ion-grid>
+      </ion-navbar>
+  
+  </ion-header>
+  
+  
+  
+  
+  <ion-content #content padding>  
+    
+      <div class="chat-container">
+  
+        <div class="chat">
+          
+        </div>
+  
+      </div>
+   
+  </ion-content> 
+  
+  <ion-footer>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-10>
+          <ion-input type="text" placeholder="Digite aqui ..." [(ngModel)]="mensagem" 
+                    name="message">
+          </ion-input>
+        </ion-col>
+        <ion-col col-2 (click)="sendMessage('enviar')">
+          <ion-icon name="paper-plane"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-footer>

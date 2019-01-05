@@ -1,0 +1,77 @@
+page-algebra {
+
+    time.icon{
+        font-size: 1em; /* change icon size */
+        display: block;
+        position: relative;
+        width: 4em;
+        height: 4em;
+        background-color: #fff;
+        border-radius: 0.6em;
+        box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+        overflow: hidden;
+      }
+      time.icon *
+      {
+        display: block;
+        width: 100%;
+        font-size: 1em;
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+      }
+      time.icon strong
+      {
+        position: absolute;
+        top: 0;
+        padding: 0.4em 0;
+        color:dodgerblue;
+        background-color: dodgerblue;
+        border-bottom: 1px dashed #f37302;
+        box-shadow: 0 2px 0 dodgerblue;
+      }
+      time.icon em
+      {
+        position: absolute;
+        bottom: 0.3em;
+        color: dodgerblue;
+        
+      }
+      time.icon span
+      {
+        margin-top: 1em;  
+        font-size: 1em;
+        letter-spacing: -0.05em;
+        padding-top: 0.8em;
+        color: #2f2f2f;
+        
+      }
+      .menu_superior * {
+        padding: 0;
+        color:#FFF;
+        background-color:darkblue;            
+      }
+
+      .centro {
+        background-color:aliceblue;
+        background-image: url('../../assets/imgs/monitoriasPortugues.png');
+        background-repeat: repeat-x;
+        background-size: 100%; 
+        display: -webkit-flex;
+      }
+      .conteudo{
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 4%;
+        margin-bottom: 2%
+      }
+      .item{
+        margin: 2%;
+      }
+      h2{
+        
+        text-align: left;        
+        white-space: pre-line;
+        
+      }
+}

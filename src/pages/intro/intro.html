@@ -1,0 +1,27 @@
+
+
+<ion-content ><!-- colocando padding cria um borda-->
+  
+      <img src="../../assets/imgs/logoensino.png">
+      <h2 class="titulo">Bem-vindo</h2>      
+      <h2 class="titulo2">Ao Ensino Propulsor</h2>
+      <br>
+      <form class="formulario">
+        <ion-item>
+          <ion-label stached >Nome</ion-label>
+          <ion-input type="text" [(ngModel)]="credencial.nome" name="nome"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label stached>E-mail</ion-label>
+            <ion-input type="email" [(ngModel)]="credencial.email" name="email"></ion-input>
+          </ion-item>        
+      </form>
+      <div>        
+        <button ion-button (click)="goTo()" class="botao1">
+            Entrar!
+        </button> 
+        <img src="../../assets/imgs/rodape.png">
+      </div>
+ 
+ 
+</ion-content>
